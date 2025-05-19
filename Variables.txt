@@ -3,7 +3,7 @@
 "use strict"; // This is the modern way of using Javascript!
 
 
-# The JavaScript languageJavaScript Fundamentals
+# The JavaScript language - JavaScript Fundamentals
 # February 14, 2024
 
 
@@ -117,3 +117,38 @@ It’s interesting to note that there exist so-called pure functional programmin
 In such languages, once the value is stored “in the box”, it’s there forever. If we need to store something else, the language forces us to create a new box (declare a new variable). We can’t reuse the old one.
 
 Though it may seem a little odd at first sight, these languages are quite capable of serious development. More than that, there are areas like parallel computations where this limitation confers certain benefits.
+
+// Working with variables
+      // importance: 2
+      // Declare two variables: admin and name.
+      // Assign the value "John" to name.
+      // Copy the value from name to admin.
+      // Show the value of admin using alert (must output “John”).
+      // solution
+      // In the code below, each line corresponds to the item in the task list.
+
+      let admin, name; // can declare two variables at once
+
+      name = "John";
+
+      admin = name;
+
+      alert(admin); // "John"
+
+      // Create a variable with the name of our planet. How would you name such a variable?
+      let ourPlanetName = "Earth";
+      // Create a variable to store the name of a current visitor to a website. How would you name that variable?
+      let currentUser = "John";
+
+      //   The variable for our planet
+      //   That’s simple:
+
+      //   let ourPlanetName = "Earth";
+      //   Note, we could use a shorter name planet, but it might not be obvious what planet it refers to. It’s nice to be more verbose. At least until the variable isNotTooLong.
+
+      //   The name of the current visitor
+      let currentUserName = "John";
+      //   Again, we could shorten that to userName if we know for sure that the user is current.
+
+      //   Modern editors and autocomplete make long variable names easy to write. Don’t save on them.
+      // A name with 3 words in it is fine.
